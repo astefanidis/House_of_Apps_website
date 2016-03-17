@@ -1120,6 +1120,17 @@ img {
 .img-rounded {
   border-radius: 6px;
 }
+.img-mine,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  
+  max-width: 100%;
+  height: 100%;
+ 
+  
+}
 .img-thumbnail {
   display: inline-block;
   max-width: 100%;
