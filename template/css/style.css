@@ -83,7 +83,7 @@ ul, ol {
 }
 .section-title h2 {
 	font-weight: 400;
-	margin-bottom: 26px;
+	margin-bottom: 25px;
 }
 hr {
 	height: 3px;
@@ -155,13 +155,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', end
 header p {
 	color: #d9e0e2;
 	font-size: 20px;
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 .intro-text {
 	position: relative;
-	padding-top: 250px;
+	padding-top: 100px;
 	padding-right: 0;
 	padding-left: 0;
 	padding-bottom: 170px;
