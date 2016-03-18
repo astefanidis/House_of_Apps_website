@@ -3,6 +3,9 @@
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #1c424d;
+    width: max;
+    resize: horizontal;
+    overflow: auto;
 
 }
 h1 {
@@ -97,6 +100,11 @@ hr {
 #menu {
 	padding: 20px;
 	transition: all 0.8s;
+border: 0px solid;
+     
+    width: auto;
+    resize: horizontal;
+    overflow: auto;
 }
 #menu.navbar-default {
 	background-color: rgba(248, 248, 248, 0);
@@ -147,7 +155,11 @@ header {
 	background: -webkit-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
-
+border: 0px solid;
+    padding: max; 
+    width: max;
+    resize: horizontal;
+    overflow: auto;
 	color: #d9e0e2;
 	position: relative;
 	height: 100%;
