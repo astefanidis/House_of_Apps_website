@@ -203,15 +203,15 @@ header p {
 #services-section {
 	padding: 80px 0 100px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
-	background: rgb(3,39,49); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* FF3.6-15 */
+	background: rgb(255,255,255)/* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,255,255) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
-	color: #5b777f;
+	color: #FFFFFF;
 }
 #services-section h4 {
-	color: #81969c;
+	color: #FFFFFF;
 	text-transform: uppercase;
 }
 .space {
@@ -226,7 +226,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 	background: #032934;
 	margin-bottom: 6px;
 	border-radius: 10%;
-	color: #f3ca27;
+	color: #FFFFFF;
 	transition: all 0.5s;
 }
 #services-section .service:hover>i.fa {
@@ -433,10 +433,10 @@ ol.type li a:hover {
 	background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
-	color: #5b777f;
+	color: #FFFFFF;
 }
 #about-section h4 {
-	color: #81969c;
+	color: #FFFFFF;
 	font-size: 20px;
 }
 #about-section li {
@@ -446,7 +446,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 }
 #about-section li:before {
 	content: "✓";
-	color: #f3ca27;
+	color: #FFFFFF;
 	padding-right: 5px;
 }
 /* Team Section */
@@ -519,7 +519,7 @@ img.img-circle.team-img {
 	background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
-	color: #5b777f;
+	color: #FFFFFF;
 }
 #testimonial {
 	padding: 30px 0;
@@ -631,12 +631,98 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
-/* Footer */
-#footer {
-	background: #032731;
-	padding: 15px 0 10px 0;
-	color: #42626b;
-	text-align: center;
+
+/* Sponsor Section */
+#sponsor-section {
+	padding: 80px 0 20px 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
+	background: rgb(193,166,24); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
+}
+#sponsor-section hr {
+	background: #a9971c;
+}
+#sponsor-section h3 {
+	font-size: 20px;
+	font-weight: 400;
+}
+#sponsor-section form {
+	padding: 30px 0;
+}
+#sponsor-section .fa {
+	color: #f8e287;
+	margin-bottom: 10px;
+}
+#sponsor-section .form-control {
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+#sponsor-section .form-control:focus {
+	border-color: inherit;
+	outline: 0;
+	-webkit-box-shadow: transparent;
+	box-shadow: transparent;
+}
+#sponsor-section .social {
+	margin-top: 60px;
+}
+#sponsor-section .social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+#sponsor-section .social i.fa {
+	font-size: 26px;
+	padding: 4px 5px;
+	color: #f8e287;
+	transition: all 0.5s;
+}
+#sponsor-section .social i.fa:hover {
+	color: #032731;
+}
+#sponsor-section .btn {
+	background: transparent;
+	border: 2px solid #fef9e7;
+	border-radius: 4px;
+	padding: 6px 14px;
+	margin-top: 20px;
+	color: #fef9e7;
+	font-size: 16px;
+	transition: all 0.5s;
+}
+#sponsor-section .btn:hover, #contact-section .btn:focus {
+	background: #fef9e7;
+	border: 2px solid #fef9e7;
+	color: #5b777f;
+}
+#sponsor-section .text-danger {
+	color: #cc3300;
+	text-align: left;
+}
+.btn:active, .btn.active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+	outline: none;
+	outline-offset: none;
 }
 #footer p {
 	margin-top: 10px;
@@ -665,6 +751,13 @@ label {
 	padding: 22% 10%;
 }
 }
+/* Footer */
+#footer {
+	background: #032731;
+	padding: 15px 0 10px 0;
+	color: #FFFFFF;
+	text-align: center;
+}
 
 /* Access Section */
 #access-section {
@@ -675,10 +768,10 @@ label {
 	background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
-	color: #5b777f;
+	color: #FFFFFF;
 }
 #access-section h4 {
-	color: #81969c;
+	color: #FFFFFF;
 	font-size: 20px;
 }
 #access-section li {
@@ -688,6 +781,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 }
 #access-section li:before {
 	content: "✓";
-	color: #f3ca27;
+	color: #FFFFFF;
 	padding-right: 5px;
 }
